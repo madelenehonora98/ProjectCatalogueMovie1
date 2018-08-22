@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(detailIntent);
             }
         });
+        setTitle("Catalogue Movie");
     }
 
     public void updateMovieData(ArrayList<Movie> movies) {

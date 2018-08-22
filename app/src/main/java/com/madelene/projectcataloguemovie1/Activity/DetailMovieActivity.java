@@ -22,7 +22,7 @@ public class DetailMovieActivity extends AppCompatActivity {
 
         movie = getIntent().getParcelableExtra("EXTRA_MOVIE");
 
-
+        setTitle(movie.getTitle());
 
         TextView txtTitle = (TextView) this.findViewById(R.id.txtTitleDetail);
         JustifiedTextView txtDescription = (JustifiedTextView) this.findViewById(R.id.txtDescriptionDetail);
