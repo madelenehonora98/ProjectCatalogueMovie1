@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectCatalogueMovie1</string>
+    <string name="text_titleMovie">Title</string>
+    <string name="text_descriptionMovie">Description</string>
+    <string name="text_ratingMovie">Rating</string>
+    <string name="text_releaseDateMovie">ReleaseDate</string>
+</resources>
